@@ -85,9 +85,9 @@ module Appsignal
       # Initial config
       merge(@config_hash, initial_config)
       # Load the config file if it exists
-      load_from_disk
+      # load_from_disk
       # Load config from environment variables
-      load_from_environment
+      # load_from_environment
       # Validate that we have a correct config
       validate
     end
