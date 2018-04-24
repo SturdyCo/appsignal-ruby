@@ -27,7 +27,6 @@ module Appsignal
       :enable_gc_instrumentation      => false,
       :enable_host_metrics            => true,
       :enable_minutely_probes         => false,
-      :hostname                       => ::Socket.gethostname,
       :ca_file_path                   => File.expand_path(File.join("../../../resources/cacert.pem"), __FILE__),
       :dns_servers                    => [],
       :files_world_accessible         => true
